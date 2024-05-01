@@ -1,0 +1,154 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #6331A6;
+}
+
+.container {
+    background-color: #1d1c1c;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 800px;
+    height: 700px;
+} 
+
+h1{
+    color: white;
+    text-align: center;
+    font-weight: 300;
+}
+
+
+input[type="text"], input[type="submit"] {
+    padding: 10px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    border: 1px solid #ccc;
+    border-radius: 50px;
+    box-sizing: border-box;
+    margin-left: 20px;
+}
+
+.name{
+    color: white;
+    font-size: large;
+    margin-left: 25px;
+}
+
+.mail{
+    color: white;
+}
+
+span{
+    color: red;
+}
+
+.part{
+    display: flex;
+}
+
+.fname{
+    display: flex;
+    flex-direction: column;
+}
+
+.first{
+    width: 350px;
+    height:40px;
+}
+
+ p{
+    color: white;
+    margin-left: 28px;
+    margin-top: -5px;
+}
+
+.last{
+    width: 350px;
+    height:40px;
+    margin-left: 10px;
+}
+
+.lastname{
+    display: flex;
+    flex-direction: column;
+}
+
+.mail{
+    margin-left: 25px;
+    margin-top: 30px;
+    font-size: large;
+}
+
+.mailbox{
+    width: 90%;
+    height: 45px;
+}
+
+#name{
+    font-size: large;
+    font-weight: 500;
+}
+
+#email{
+    font-size: large;
+    font-weight: 500;
+}
+
+.about{
+    display: flex;
+    flex-direction: column;
+}
+
+.you{
+    margin-left: 25px;
+    margin-top: 40px;
+    font-size: large;
+    color: white;
+}
+
+.expanding-textarea{
+    width: 90%;
+    height: 85px;
+    resize: none;
+    overflow-y: hidden;
+    margin-left: 25px;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+#textarea{
+        font-size: larger;
+        font-weight: 600;
+        padding: 5px;
+}
+
+input[type="submit"] {
+    background-color: #E7115B;
+    color: white;
+    cursor: pointer;
+    border-radius: 25px;
+    margin-top: 70px;
+    margin-left: 310px;
+    width: 150px;
+    height: 50px;
+    font-size: large;
+    font-weight: 500;
+    font-size: large;
+}
+
+input[type="submit"]:hover {
+    background-color: #970639;
+    transform: scale(1.1);
+}
+
+input[type="submit"]:disabled {
+    cursor: not-allowed;
+}
+
